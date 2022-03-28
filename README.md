@@ -1,2 +1,8 @@
-# docs
-Clan Network - the future of Web3 Gaming documentation 
+---
+description: The future of Web3 Gaming
+---
+
+# Introduction
+
+### About
+
