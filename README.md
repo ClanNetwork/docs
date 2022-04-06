@@ -14,7 +14,7 @@ Introducing Clan Network, a Web3 gaming hub built on Cosmos multi-chain, where g
 
 Building on the innovative infrastructure of blockchains and revolutionary concepts like the metaverse and non-fungible tokens (NFTs), Web3 is the future, totally decentralized form of the present internet. In regard to gaming, the Web3 promise is that future games will not serve as isolated economies, keeping gamers' value locked within the parameters of one game. Instead, gamers will be able to transfer the value that they own in one game (like in-game purchases or experience) to another game.&#x20;
 
-As we are witnessing this revolution first hand, we believe that Cosmos multi chain community encompasses all the right components, both in knowledge and in values, to push the Web3 gaming frontier and help grow the ecosystem further..
+As we are witnessing this revolution first hand, we believe that Cosmos multi chain community encompasses all the right components, both in knowledge and in values, to push the Web3 gaming frontier and help grow the ecosystem further.
 
 ## Gaming market: It’s all about the potential
 
