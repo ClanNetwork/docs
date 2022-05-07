@@ -12,8 +12,6 @@ Clan Network is a gaming blockchain on a mission to realize the full potential o
 
 Clan aims to provide a superior development and gaming experience with unprecedented capabilities, by leveraging cutting-edge developments on the Cosmos ecosystem such as IBC, Starport, privacy through the Secret Network, and interchain security. In the spirit of Web3, Clan Network is a community-led project to the utmost degree. Clan’s core contributors, validators, and founding partners are some of the most experienced and capable development teams in Cosmos and crypto gaming.
 
-
-
 ## Web3 gaming&#x20;
 
 \
@@ -38,3 +36,7 @@ We are utilizing Cosmos projects such as IBC (Inter-Blockchain Communication Pro
 ## **Clan network: A community owned Web3 gaming ecosystem**
 
 Clan Network is building upon these market leading trends, aiming to serve as a decentralized hub for Web3 gaming, where gamers and game developers can leverage innovative blockchain technologies to stretch the boundaries of the current market standards.
+
+In the spirit of Web3, Clan Network is a community-led project to the utmost degree. Accordingly, the distribution of the network’s native token, $CLAN, is designed to reward the most active contributors by default: Game devs, network core devs and validators.
+
+In contrast to existing gaming-oriented chains such as Solana, Polygon, Wax, and Flow, when games and apps developers contribute to Clan, they receive partial ownership over the network. Clan is not run by a centralized dev shop, rather, it is a community-led project, where contributors are compensated with ownership.

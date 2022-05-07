@@ -1,3 +1,3 @@
 # Airdrop
 
-TBD
+Coming soon
