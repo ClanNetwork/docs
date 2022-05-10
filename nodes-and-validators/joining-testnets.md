@@ -72,7 +72,7 @@ Persistent peers will be required to tell your node where to connect to other no
 
 ```bash
 #Set the base repo URL for the testnet & retrieve peers
-CHAIN_REPO="https://raw.githubusercontent.com/ClanNetwork/testnets/main/playstation-2/persistent-peers.txt$CHAIN_ID" && \
+CHAIN_REPO="https://raw.githubusercontent.com/ClanNetwork/testnets/main/$CHAIN_ID" && \
 export PEERS="$(curl -s "$CHAIN_REPO/persistent-peers.txt")"
 
 # check it worked
