@@ -7,3 +7,7 @@
 * [Tokenomics](general/tokenomics.md)
 * [Airdrop](general/airdrop.md)
 * [Genesis validators](general/genesis-validators.md)
+
+## NODES AND VALIDATORS
+
+* [Joining Testnets](nodes-and-validators/joining-testnets.md)
