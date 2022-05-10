@@ -11,3 +11,4 @@
 ## NODES AND VALIDATORS
 
 * [Joining Testnets](nodes-and-validators/joining-testnets.md)
+* [Cland Installation and setup](nodes-and-validators/getting-setup.md)

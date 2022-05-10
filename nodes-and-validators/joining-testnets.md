@@ -12,7 +12,7 @@ For details of upgrades on the current testnet, as well as syncing, you can [che
 
 If you get stuck, then please ask on Discord.
 
-| chain-id      | Current Github version tag |                     Description                      | Status  |
+| chain-id      | Current Github version tag |                      Description                     | Status  |
 | ------------- | -------------------------- | :--------------------------------------------------: | ------- |
 | playstation-2 | v1.0.4-alpha               | Testing ground clan's airdrop and pre-mainnet launch | current |
 
@@ -34,7 +34,7 @@ Note that the testnets accumulate data as the blockchain continues. This means t
 
 ## cland Installation
 
-To get up and running with the cland binary, please follow the instructions [here](getting-setup.md)
+To get up and running with the cland binary, please follow the instructions here
 
 ## Configuration of Shell Variables
 
@@ -108,9 +108,9 @@ cland init $MONIKER_NAME --chain-id=$CHAIN_ID
 
 This will generate the following files in `~/.clan/config/`
 
-- `genesis.json`
-- `node_key.json`
-- `priv_validator_key.json`
+* `genesis.json`
+* `node_key.json`
+* `priv_validator_key.json`
 
 {% hint style="info" %}
 Note that this means if you jumped ahead and already downloaded the genesis file, this command will replace it and you will get an error when you attempt to start the chain.
@@ -159,20 +159,17 @@ After creating a new key, the key information and seed phrase will be shown. It 
 
 Testnet tokens can be requested from the [Faucet](https://faucet-testnet.clan.network).
 
-To request tokens type `$request <your-public-address>` in the message field and press enter.
-
 ## Start your node
 
 Now that everything is setup and ready to go, you can start your node.
 
-```sh
+```
 cland start
 ```
 
-You will need some way to keep the process always running. If you're on linux, you can do this by creating a
-service.
+You will need some way to keep the process always running. If you're on linux, you can do this by creating a service.
 
-```sh
+```
 sudo tee /etc/systemd/system/cland.service > /dev/null <<'EOF'
 [Unit]
 Description=Clan daemon
@@ -201,7 +198,7 @@ EOF
 
 Then update and start the node
 
-```sh
+```
 sudo -S systemctl daemon-reload
 sudo -S systemctl enable cland
 sudo -S systemctl start cland
@@ -209,7 +206,7 @@ sudo -S systemctl start cland
 
 You can check the status with:
 
-```sh
+```
 systemctl status cland
 ```
 
@@ -247,7 +244,7 @@ cland tx staking create-validator \
 
 There are certain files that you need to backup to be able to restore your validator if, for some reason, it damaged or lost in some way. Please make a secure backup of the following files located in `~/.clan/config/`:
 
-- `priv_validator_key.json`
-- `node_key.json`
+* `priv_validator_key.json`
+* `node_key.json`
 
 It is recommended that you encrypt the backup of these files.
