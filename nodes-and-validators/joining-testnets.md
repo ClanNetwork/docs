@@ -63,7 +63,7 @@ Choose your `<moniker-name>`, this can be any name of your choosing and will ide
 MONIKER_NAME=<moniker-name>
 
 #Example
-MONIKER_NAME="Clantastic 1337"
+MONIKER_NAME="testmoniker"
 ```
 
 ### **Set persistent peers**
