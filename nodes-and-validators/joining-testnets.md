@@ -185,15 +185,6 @@ LimitNOFILE=4096
 [Install]
 WantedBy=multi-user.target
 EOF
-
-sudo systemctl enable cland
-sudo systemctl start cland
-
-sudo tee ./status.sh <<'EOF'
-sudo systemctl status cland
-
-echo "cland service started"
-EOF
 ```
 
 Then update and start the node
@@ -227,7 +218,7 @@ To upgrade the node to a validator, you will need to submit a `create-validator`
 
 ```bash
 cland tx staking create-validator \
-  --amount uclan \
+  --amount 1000000000uclan \
   --commission-max-change-rate "0.1" \
   --commission-max-rate "0.20" \
   --commission-rate "0.1" \
