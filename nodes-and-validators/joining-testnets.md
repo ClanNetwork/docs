@@ -34,7 +34,7 @@ Note that the testnets accumulate data as the blockchain continues. This means t
 
 ## cland Installation
 
-To get up and running with the cland binary, please follow the instructions here
+To get up and running with the cland binary, please follow the instructions [here](getting-setup.md)
 
 ## Configuration of Shell Variables
 
