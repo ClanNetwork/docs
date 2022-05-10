@@ -185,15 +185,6 @@ LimitNOFILE=4096
 [Install]
 WantedBy=multi-user.target
 EOF
-
-sudo systemctl enable cland
-sudo systemctl start cland
-
-sudo tee ./status.sh <<'EOF'
-sudo systemctl status cland
-
-echo "cland service started"
-EOF
 ```
 
 Then update and start the node
