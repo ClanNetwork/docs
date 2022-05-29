@@ -167,7 +167,9 @@ Now that everything is setup and ready to go, you can start your node.
 cland start
 ```
 
-You will need some way to keep the process always running. If you're on linux, you can do this by creating a service.
+You will need some way to keep the process always running. If you're on linux, you can do this by creating a service.&#x20;
+
+**Note: First run `which cland` and replace `/usr/local/bin/cland` with the output if you find any differences**&#x20;
 
 ```
 sudo tee /etc/systemd/system/cland.service > /dev/null <<'EOF'
@@ -177,7 +179,7 @@ After=network-online.target
 
 [Service]
 User=<your-username>
-ExecStart=/path/to/cland start
+ExecStart=/usr/local/bin/cland start
 Restart=on-failure
 RestartSec=3
 LimitNOFILE=4096
