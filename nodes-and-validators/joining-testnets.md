@@ -12,9 +12,11 @@ For details of upgrades on the current testnet, as well as syncing, you can [che
 
 If you get stuck, then please ask on Discord.
 
-| chain-id      | Current Github version tag |           Description          | Links                                                                                                                                                                                                                                                                                                                                                                                               | Status  |
-| ------------- | -------------------------- | :----------------------------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| playstation-2 | v1.0.4-alpha               | airdrop and pre-mainnet launch | <p>- block explorer: <a href="https://secretnodes.com/clan/chains/playstation-2">https://secretnodes.com/clan/chains/playstation-2</a></p><p> - faucet: <a href="https://faucet-testnet.clan.network/">https://faucet-testnet.clan.network/</a></p><p> - stake / vote (also available on block explorer): <a href="https://stake-testnet.clan.network/">https://stake-testnet.clan.network/</a></p> | current |
+
+
+| chain-id      | Current Github version tag |           Description          | Links                                                                                                                                                                                                                                                                                | Status  |
+| ------------- | -------------------------- | :----------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------- |
+| playstation-2 | v1.0.4-alpha               | airdrop and pre-mainnet launch | <ul><li><a href="https://secretnodes.com/clan/chains/playstation-2">block explorer</a></li></ul><ul><li><a href="https://faucet-testnet.clan.network">faucet interface</a> </li></ul><ul><li> <a href="https://stake-testnet.clan.network/">staking/voting interaface </a></li></ul> | current |
 
 ## Minimum Hardware Requirements
 
